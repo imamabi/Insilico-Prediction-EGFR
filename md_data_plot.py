@@ -111,10 +111,10 @@ def plot_rmsd(file_paths, labels, colors, output_file, xlim=None, ylim=None):
 if __name__ == "__main__":
     # Define file paths, labels, and colors
     file_paths = [
-        "./data/wt/full-wt-ca-rmsf.xvg",
-        "./data/l858r/full-L858R-ca-rmsf.xvg",
-        "./data/del19/del19-rmsf.xvg",
-        "./data/T790M/T790M-ca-rmsf.xvg"
+        "./data/md/full-wt-ca-rmsf.xvg",
+        "./data/md/full-L858R-ca-rmsf.xvg",
+        "./data/md/del19-rmsf.xvg",
+        "./data/md/T790M-ca-rmsf.xvg"
     ]
     labels = ['wild-type', 'L858R', 'del19', 'T790M']
     colors = ['black', 'purple', 'teal', 'orange']
@@ -133,10 +133,10 @@ if __name__ == "__main__":
 
 # Define file paths, labels, and colors for RMSD
     rmsd_file_paths = [
-        "./data/wt/full-wt-ca-rmsd.xvg",
-        "./data/l858r/full-L858R-ca-rmsd.xvg",
-        "./data/del19/del19-rmsd.xvg",
-        "./data/T790M/T790M-ca-rmsd.xvg"
+        "./data/md/full-wt-ca-rmsd.xvg",
+        "./data/md/full-L858R-ca-rmsd.xvg",
+        "./data/md/del19-rmsd.xvg",
+        "./data/md/T790M-ca-rmsd.xvg"
     ]
     rmsd_labels = ['wild-type', 'L858R', 'del19', 'T790M']
     rmsd_colors = ['black', 'purple', 'teal', 'orange']
