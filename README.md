@@ -41,5 +41,3 @@ Output: List of top hit compounds with their respective docking scores.
 
 ### 6. Experimental Verification
 Description: Validate the top hit compounds through experimental assays to confirm their efficacy against drug-resistant EGFR.
-
-Output: Experimental data confirming the effectiveness of selected compounds.
